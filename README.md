@@ -21,6 +21,14 @@ All the example included have been tested only on arduino Uno, but should easily
 | SD CARD     | GND       | GND         |
 | SD CARD     | VCC       | 5V          |
 
+
+## Bill of Materials (BOM)
+
+| Qty | Component                                      | Description                                                                                                      | Supplier   | Link                                                                 |
+|-----|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------|
+| 1   | EEPROM 24AA32 (5-pin version)                | Default address `0x50`. If multiple EEPROMs are needed, choose versions with A0, A1, A2 pins to change address. | RS Online  | Buy Here           |
+| 1   | SOT23 to DIP10 Adapter                       | Used to mount EEPROM on a board for easy MCU connection (prototype only).                                       | Amazon     | [Buy Here](https://www       |
+
 BOM: 
 
 - EEPROM 24AA32 5 pins version ( see the datasheet in the documentation ). The 5 pins version has a default address 0x50, if more than 1 eeprom is required in your projects, choose a different version.
