@@ -31,6 +31,33 @@ All the example included have been tested only on arduino Uno, but should easily
 | 2   | 1/4 Watt Resistors                      | Pull-up resistors for SCL and SDA pins.                                                                         | AliExpress | Buy Here |
 | 1   | Micro SD TF Card Storage Expansion Board| Storage expansion board for Arduino (SPI interface).                                                            | AliExpress | Buy Here |
 
+
+## ⚠️ NOTE
+
+- **SCL and SDA pins must be pulled up to 5V with resistors.**  
+  Tested values: `10 kΩ` and `3.3 kΩ`.
+
+- **The IC used is a SOT-23 5-pin version.**  
+  For versions with more pins (A0, A1, A2) to select different EEPROM IDs, refer to the datasheet.
+
+---
+
+### ✅ Examples without SD card
+The following examples can be used independently **without the SD card attached to the Arduino**:
+- `read_write`
+- `readBlocks`
+- `writeBlocks`
+- `readEEprom`
+- `writeEEprom`
+- `eraseEEprom`
+
+---
+
+### ✅ Examples requiring SD card
+The SD card is required for these examples:
+- `CreateDumpFile`
+- `readBackup`
+- `restoreBackup`
 #NOTE!! 
 SCL and SDA pins must be pulled up to 5V with resistors. 10kohm and 3.3kohm resistors have been tested 
 The IC used is a SOT-23 5 pins version! for the version with more pins, with A0,A1,A2 to select diffente EEprom IDs, refer to the datasheet
