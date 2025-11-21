@@ -3,7 +3,7 @@ Author: Abraxas666
 
 The library includes the main functionalities to read and write data in the EEprom 24AA32. 
 Additionally some functions have been added to create,read and restore dump files from the EEprom to the SD card and vice versa.
-All the example included have been tested only on arduino Uno, but should work with other types of Arduino boards and ESP32 as well ( to be tested! )
+All the example included have been tested only on arduino Uno, but should be easily adapted to other Arduino boards and ESP32 as well
 
 ## CONNECTIONS
 
