@@ -7,18 +7,21 @@ All the example included have been tested only on arduino Uno, but should easily
 
 CONNECTIONS:
 
-EE24AA32 SCL  ==>  ARDUINO UNO A4
-EE24AA32 SDA  ==>  ARDUINO UNO A5
-EE24AA32 VCC  ==>  ARDUINO UNO 5V
-EE24AA32 GND  ==>  ARDUINO UNO GND
-EE24AA32 WP   ==>  ARDUINO UNO GND
+## CONNECTIONS
 
-SD CARD SCK   ==>  ARDUINO UNO 13
-SD CARD MISO  ==>  ARDUINO UNO 12
-SD CARD MOSI  ==>  ARDUINO UNO 11
-SD CARD CS    ==>  ARDUINO UNO 10
-SD CARD GND   ==>  ARDUINO UNO GND
-SD CARD VCC   ==>  ARDUINO UNO 5V
+| Component   | Pin       | Arduino UNO |
+|-------------|-----------|-------------|
+| EE24AA32    | SCL       | A4          |
+| EE24AA32    | SDA       | A5          |
+| EE24AA32    | VCC       | 5V          |
+| EE24AA32    | GND       | GND         |
+| EE24AA32    | WP        | GND         |
+| SD CARD     | SCK       | 13          |
+| SD CARD     | MISO      | 12          |
+| SD CARD     | MOSI      | 11          |
+| SD CARD     | CS        | 10          |
+| SD CARD     | GND       | GND         |
+| SD CARD     | VCC       | 5V          |
 
 BOM: 
 
