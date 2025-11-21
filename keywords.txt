@@ -1,27 +1,31 @@
-/*
-  Keywords - Arduino library support for 24AA32 EEPROM 
-  Author: Abraxas666
-  
-  This library has been made to easily interface and use the 24AA32 with the Arduino
-  This library makes use of the built-in hardware I2C port of the microcontroller 
+## Arduino Library Keywords – 24AA32 EEPROM
+**Author:** Abraxas666  
 
-*/
+This library provides an easy interface to use the **24AA32 EEPROM** with Arduino.  
+It leverages the built-in **hardware I²C port** of the microcontroller.
 
-EE24AA32	    KEYWORD1
-begin	        KEYWORD1
-  
-readAddr	    KEYWORD2
-writeAddr	    KEYWORD2
-readBlock	    KEYWORD2
-writeBlock    KEYWORD2
-eraseEEprom   KEYWORD2
-readAll       KEYWORD2
-writeAll      KEYWORD2
+---
 
-EEdump        KEYWORD2
-dumpFilesList KEYWORD2
-restoreDump   KEYWORD2
-readDump      KEYWORD2
+### ✅ Keywords
 
+| Keyword        | Type      |
+|---------------|-----------|
+| EE24AA32      | KEYWORD1  |
+| begin         | KEYWORD1  |
+| readAddr      | KEYWORD2  |
+| writeAddr     | KEYWORD2  |
+| readBlock     | KEYWORD2  |
+| writeBlock    | KEYWORD2  |
+| eraseEEprom   | KEYWORD2  |
+| readAll       | KEYWORD2  |
+| writeAll      | KEYWORD2  |
+| EEdump        | KEYWORD2  |
+| dumpFilesList | KEYWORD2  |
+| restoreDump   | KEYWORD2  |
+| readDump      | KEYWORD2  |
 
+---
 
+### 📌 Notes
+- This library simplifies EEPROM operations such as **read**, **write**, **block operations**, and **dump/restore**.
+- Compatible with Arduino boards using **I²C**.
