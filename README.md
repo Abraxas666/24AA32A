@@ -5,19 +5,20 @@ The library includes the main functionalities to read and write data in the EEpr
 Additionally some functions have been added to store,read and restore dump file from/into the EEprom and an externa SD card
 All the example included have been tested only on arduino Uno, but should easily work with other types of Arduino boards and ESP32 as well ( to be tested! )
 
+CONNECTIONS:
 
-Connections:                SD card connections:      
- 
-+----------+-------+        +----------+-------+    
-| EE24AA32 |  Uno  |        | SD CARD  |  Uno  |  
-+----------+-------+        +----------+-------+
-| SCL      |  A4   |        | SCK      |  13   |
-| SDA      |  A5   |        | MISO     |  12   | 
-| VCC      |  5V   |        | MOSI     |  11   |
-| GND      | GND   |        | CS       |  10   |
-| WP       | GND   |        | GND      | GND   |
-+----------+-------+        | VCC      | VCC   |
-                            +----------+-------+
+EE24AA32 SCL  ==>  ARDUINO UNO A4
+EE24AA32 SDA  ==>  ARDUINO UNO A5
+EE24AA32 VCC  ==>  ARDUINO UNO 5V
+EE24AA32 GND  ==>  ARDUINO UNO GND
+EE24AA32 WP   ==>  ARDUINO UNO GND
+
+SD CARD SCK   ==>  ARDUINO UNO 13
+SD CARD MISO  ==>  ARDUINO UNO 12
+SD CARD MOSI  ==>  ARDUINO UNO 11
+SD CARD CS    ==>  ARDUINO UNO 10
+SD CARD GND   ==>  ARDUINO UNO GND
+SD CARD VCC   ==>  ARDUINO UNO 5V
 
 BOM: 
 
