@@ -24,13 +24,12 @@ All the example included have been tested only on arduino Uno, but should easily
 
 ## Bill of Materials (BOM)
 
-| Qty | Component                                | Description                                                                                                      |                                                                  |
-|-----|------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------|
+| Qty | Component                                | Description                                                                                                      | Supplier   | Link                                                                 |
+|-----|------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|--------------------------------------------|
 | 1   | EEPROM 24AA32 (5-pin version)           | EEPROM I²C, default address `0x50`.                                                                             | RS Online  | Buy Here |
 | 1   | SOT23 to DIP10 Adapter                  | Adapter to mount EEPROM on a board for easy MCU connection (prototype use only).                                | Amazon     | Buy Here |
 | 2   | 1/4 Watt Resistors                      | Pull-up resistors for SCL and SDA pins.                                                                         | AliExpress | Buy Here |
-| 1   | Micro SD TF Card Storage Expansion Board| Storage expansion board for Arduino (SPI interface).                                                            | 
-## ⚠️ NOTE
+| 1   | Micro SD TF Card Storage Expansion Board| Storage expansion board for Arduino (SPI interface).                                                            | AliExpress | Buy Here | 
 
 - **SCL and SDA pins must be pulled up to 5V with resistors.**  
   Tested values: `10 kΩ` and `3.3 kΩ`.
