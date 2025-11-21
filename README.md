@@ -32,7 +32,7 @@ All the example included have been tested only on arduino Uno, but should easily
 | 1   | Micro SD TF Card Storage Expansion Board| Storage expansion board for Arduino (SPI interface).                                                            | AliExpress | Buy Here |
 
 #NOTE!! 
-#SCL and SDA pins must be pulled up to 5V with resistors. 10kohm and 3.3kohm resistors have been tested 
+SCL and SDA pins must be pulled up to 5V with resistors. 10kohm and 3.3kohm resistors have been tested 
 The IC used is a SOT-23 5 pins version! for the version with more pins, with A0,A1,A2 to select diffente EEprom IDs, refer to the datasheet
 
 The examples read_write, readBlocks, writeBlocks, readEEprom, writeEEprom, eraseEEprom, can be used indpendenty without the SD card attached to the Arduino.
