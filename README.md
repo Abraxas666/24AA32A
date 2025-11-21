@@ -1,7 +1,7 @@
 # 24AA32 EEPROM library for Arduino family v1.0.0 
 Author: Abraxas666
 
-The library includes the main functionalities to read and write data in the EEprom 24AA32
+The library includes the main functionalities to read and write data in the EEprom 24AA32. 
 Additionally some functions have been added to store,read and restore dump file from/into the EEprom and an externa SD card
 All the example included have been tested only on arduino Uno, but should easily work with other types of Arduino boards and ESP32 as well ( to be tested! )
 
