@@ -24,7 +24,7 @@ All the example included have been tested only on arduino Uno, but should easily
 
 ## Bill of Materials (BOM)
 
-| Qty | Component                                | Description                                                                                                      | Supplier   | Link                                                                 |
+| Qty | Component                                | Description                                                                                                      |                                                                  |
 |-----|------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------|
 | 1   | EEPROM 24AA32 (5-pin version)           | EEPROM I²C, default address `0x50`.                                                                             | RS Online  | Buy Here |
 | 1   | SOT23 to DIP10 Adapter                  | Adapter to mount EEPROM on a board for easy MCU connection (prototype use only).                                | Amazon     | Buy Here |
